@@ -25,7 +25,9 @@ export function Hero() {
             Discover cutting-edge tutorials, best practices, and industry insights from expert developers. Level up your skills with TechHub.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          {/* [BUG - LAYOUT] flex-col-reverse breaks natural button order */}
+          {/* [FIX] Change flex-col-reverse to flex-col */}
+          <div className="flex flex-col-reverse sm:flex-row gap-4 justify-center mb-12">
             <button className="px-8 py-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-xl font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg">
               Start Learning
             </button>

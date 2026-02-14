@@ -12,8 +12,10 @@ export function Header({ onOpenCookieSettings }) {
   }, []);
 
   return (
+    // [BUG - LAYERS] z-index should be z-50 to stay on top
+    // [FIX] Change z-10 to z-50
     <header
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+      className={`fixed w-full top-0 z-10 transition-all duration-300 ${
         isScrolled
           ? 'bg-white shadow-lg backdrop-blur-md bg-opacity-95'
           : 'bg-transparent'

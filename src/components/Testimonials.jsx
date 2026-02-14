@@ -43,8 +43,10 @@ export function Testimonials() {
                   className="w-12 h-12 rounded-full"
                 />
                 <div>
-                  <h4 className="font-bold text-gray-900">{testimonial.author}</h4>
-                  <p className="text-sm text-gray-600">{testimonial.role}</p>
+                  {/* [BUG - COLOR & CONTRAST] Text is white on white background making it invisible */}
+                  {/* [FIX] Change text-white to text-gray-900 */}
+                  <h4 className="font-bold text-white">{testimonial.author}</h4>
+                  <p className="text-sm text-white">{testimonial.role}</p>
                 </div>
               </div>
               <div className="flex gap-1 mb-4">
@@ -52,7 +54,9 @@ export function Testimonials() {
                   <span key={i} className="text-yellow-400">⭐</span>
                 ))}
               </div>
-              <p className="text-gray-600 leading-relaxed italic">"{testimonial.text}"</p>
+              {/* [BUG - COLOR & CONTRAST] Quote text is also white on white making it invisible */}
+              {/* [FIX] Change text-white to text-gray-600 */}
+              <p className="text-white leading-relaxed italic">"{testimonial.text}"</p>
             </div>
           ))}
         </div>

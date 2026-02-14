@@ -16,7 +16,9 @@ export function Newsletter() {
   };
 
   return (
-    <section className="relative overflow-hidden rounded-3xl p-8 md:p-12 mb-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600">
+    // [BUG - SPACING] Negative padding breaks layout and causes overlap
+    // [FIX] Change -p-12 to p-12
+    <section className="relative overflow-hidden rounded-3xl -p-12 mb-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600">
       {/* Animated background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white opacity-5 rounded-full blur-3xl"></div>

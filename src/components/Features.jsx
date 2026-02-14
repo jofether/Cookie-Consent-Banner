@@ -48,7 +48,9 @@ export function Features() {
               key={idx}
               className="group p-8 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100"
             >
-              <div className="text-4xl mb-4 group-hover:scale-125 transition-transform duration-300">{feature.icon}</div>
+              {/* [BUG - TYPO] text-4xll is not a valid Tailwind class (typo) */}
+        {/* [FIX] Change text-4xll to text-4xl */}
+        <div className="text-4xll mb-4 group-hover:scale-125 transition-transform duration-300">{feature.icon}</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors">
                 {feature.title}
               </h3>

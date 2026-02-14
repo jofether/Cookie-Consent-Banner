@@ -8,7 +8,9 @@ export function CookieBanner({ onAcceptAll, onCustomize, onReject }) {
         
         <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">We Value Your Privacy</h2>
         
-        <p className="text-gray-600 text-center mb-2 leading-relaxed">
+        {/* [BUG - COLOR & CONTRAST] Very low contrast gray text on white background */}
+        {/* [FIX] Change text-gray-300 to text-gray-600 */}
+        <p className="text-gray-300 text-center mb-2 leading-relaxed">
           We use cookies to enhance your experience and analyze our traffic. 
         </p>
         <p className="text-gray-600 text-center text-sm mb-8">
