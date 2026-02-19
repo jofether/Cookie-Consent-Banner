@@ -79,10 +79,6 @@ export function ArticlesSection() {
           <p className="text-xl text-gray-600">Curated content from our expert developers</p>
         </div>
 
-        {/* [BUG - LAYOUT] lg:grid-cols-5 breaks the intended 3-column layout */}
-        {/* [FIX] Change lg:grid-cols-5 to lg:grid-cols-3 */}
-        {/* [BUG - SPACING] Zero gap causes article cards to overlap completely */}
-        {/* [FIX] Change gap-0 to gap-6 */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
           {articles.map((article, idx) => (
             <ArticleCard key={idx} {...article} />
