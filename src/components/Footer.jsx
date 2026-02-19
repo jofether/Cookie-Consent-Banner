@@ -6,8 +6,6 @@ export function Footer() {
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-black text-gray-300 py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* [BUG - TYPO] bg-gray-90 is not a valid Tailwind class */}
-        {/* [FIX] Change bg-gray-90 to bg-gray-900 */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12 bg-gray-90">
           {/* Brand */}
           <div className="lg:col-span-1">

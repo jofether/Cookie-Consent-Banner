@@ -6,8 +6,6 @@ export function FeaturedArticle() {
       <div className="bg-white rounded-3xl shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-300 cursor-pointer">
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Image Side */}
-          {/* [BUG - LAYERS] Positioning should be relative, not absolute with wrong offset */}
-          {/* [FIX] Change absolute -top-20 to relative */}
           <div className="h-96 md:h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 absolute -top-20 overflow-hidden">
             <div className="absolute inset-0 opacity-20 bg-grid-pattern animate-pulse"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
