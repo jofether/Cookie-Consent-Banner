@@ -1,0 +1,155 @@
+{
+  "repository": "Cookie Consent Banner",
+  "bugs": [
+    {
+      "bug_category": "Spacing",
+      "bug_type": "gap",
+      "file_modified": "src/components/ArticlesSection.jsx",
+      "line_number": 82,
+      "clean_code": "        <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6\">",
+      "buggy_code": "        <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0\">",
+      "css_selector": ".grid",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/CookieBanner.jsx",
+      "line_number": 11,
+      "clean_code": "        <p className=\"text-gray-600 text-center mb-2 leading-relaxed\">",
+      "buggy_code": "        <p className=\"text-gray-300 text-center mb-2 leading-relaxed\">",
+      "css_selector": ".text-gray-300",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "position",
+      "file_modified": "src/components/FeaturedArticle.jsx",
+      "line_number": 9,
+      "clean_code": "          <div className=\"h-96 md:h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 relative overflow-hidden\">",
+      "buggy_code": "          <div className=\"h-96 md:h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 absolute -top-20 overflow-hidden\">",
+      "css_selector": ".absolute",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "text-size",
+      "file_modified": "src/components/Features.jsx",
+      "line_number": 51,
+      "clean_code": "              <div className=\"text-4xl mb-4 group-hover:scale-125 transition-transform duration-300\">{feature.icon}</div>",
+      "buggy_code": "        <div className=\"text-4xll mb-4 group-hover:scale-125 transition-transform duration-300\">{feature.icon}</div>",
+      "css_selector": ".text-4xll",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "background-color",
+      "file_modified": "src/components/Footer.jsx",
+      "line_number": 9,
+      "clean_code": "        <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12\">",
+      "buggy_code": "        <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12 bg-gray-90\">",
+      "css_selector": ".bg-gray-90",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 16,
+      "clean_code": "      className={`fixed w-full top-0 z-50 transition-all duration-300 ${",
+      "buggy_code": "      className={`fixed w-full top-0 z-10 transition-all duration-300 ${",
+      "css_selector": ".z-10",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/Hero.jsx",
+      "line_number": 28,
+      "clean_code": "          <div className=\"flex flex-col sm:flex-row gap-4 justify-center mb-12\">",
+      "buggy_code": "          <div className=\"flex flex-col-reverse sm:flex-row gap-4 justify-center mb-12\">",
+      "css_selector": ".flex-col-reverse",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/components/Newsletter.jsx",
+      "line_number": 19,
+      "clean_code": "    <section className=\"relative overflow-hidden rounded-3xl p-8 md:p-12 mb-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600\">",
+      "buggy_code": "    <section className=\"relative overflow-hidden rounded-3xl -p-12 mb-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600\">",
+      "css_selector": ".section",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/Testimonials.jsx",
+      "line_number": 46,
+      "clean_code": "                  <h4 className=\"font-bold text-gray-900\">{testimonial.author}</h4>\n                  <p className=\"text-sm text-gray-600\">{testimonial.role}</p>",
+      "buggy_code": "                  <h4 className=\"font-bold text-white\">{testimonial.author}</h4>\n                  <p className=\"text-sm text-white\">{testimonial.role}</p>",
+      "css_selector": ".text-white",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/Testimonials.jsx",
+      "line_number": 55,
+      "clean_code": "              <p className=\"text-gray-600 leading-relaxed italic\">\" + testimonial.text + \"</p>",
+      "buggy_code": "              <p className=\"text-white leading-relaxed italic\">\" + testimonial.text + \"</p>",
+      "css_selector": ".text-white",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
