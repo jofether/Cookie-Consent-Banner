@@ -17,6 +17,7 @@ export function CookieBanner({ onAcceptAll, onCustomize, onReject }) {
 
         <div className="space-y-3">
           <button
+            type="button"
             onClick={onAcceptAll}
             className="w-full px-6 py-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-xl font-bold hover:shadow-xl hover:scale-105 transition-all duration-300"
           >
@@ -24,6 +25,7 @@ export function CookieBanner({ onAcceptAll, onCustomize, onReject }) {
           </button>
           
           <button
+            type="button"
             onClick={onCustomize}
             className="w-full px-6 py-4 border-2 border-indigo-600 text-indigo-600 rounded-xl font-bold hover:bg-indigo-50 transition-all duration-300"
           >
@@ -31,6 +33,7 @@ export function CookieBanner({ onAcceptAll, onCustomize, onReject }) {
           </button>
           
           <button
+            type="button"
             onClick={onReject}
             className="w-full px-6 py-3 text-gray-600 hover:text-gray-900 font-semibold transition-colors"
           >
