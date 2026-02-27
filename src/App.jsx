@@ -12,10 +12,7 @@ import { CookiePreferences } from './components/CookiePreferences';
 
 function App() {
   const [isPreferencesOpen, setIsPreferencesOpen] = useState(false);
-  const [cookieConsent, setCookieConsent] = useState(() => {
-    const saved = localStorage.getItem('cookieConsent');
-    return saved ? JSON.parse(saved) : null;
-  });
+  const [cookieConsent, setCookieConsent] = useState(null);
 
   const handleAcceptAll = () => {
     const consent = { essential: true, analytics: true, marketing: true };
