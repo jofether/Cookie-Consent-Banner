@@ -2,6 +2,7 @@
   "repository": "Cookie Consent Banner",
   "bugs": [
     {
+      "comment": "Bug #1 - gap spacing",
       "bug_category": "Spacing",
       "bug_type": "gap",
       "file_modified": "src/components/ArticlesSection.jsx",
@@ -10,13 +11,14 @@
       "buggy_code": "        <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0\">",
       "css_selector": ".grid",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 64,
+        "y": 356,
+        "width": 1152,
+        "height": 364
       }
     },
     {
+      "comment": "Bug #2 - text color",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/CookieBanner.jsx",
@@ -25,13 +27,14 @@
       "buggy_code": "        <p className=\"text-gray-300 text-center mb-2 leading-relaxed\">",
       "css_selector": ".text-gray-300",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 320,
+        "y": 620,
+        "width": 640,
+        "height": 80
       }
     },
     {
+      "comment": "Bug #3 - position layout",
       "bug_category": "Layout",
       "bug_type": "position",
       "file_modified": "src/components/FeaturedArticle.jsx",
@@ -40,13 +43,14 @@
       "buggy_code": "          <div className=\"h-96 md:h-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 absolute -top-20 overflow-hidden\">",
       "css_selector": ".absolute",
       "bounding_box": {
-        "x": 0,
+        "x": 24,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 82,
+        "height": 60
       }
     },
     {
+      "comment": "Bug #4 - text size typo",
       "bug_category": "Typo",
       "bug_type": "text-size",
       "file_modified": "src/components/Features.jsx",
@@ -55,13 +59,14 @@
       "buggy_code": "        <div className=\"text-4xll mb-4 group-hover:scale-125 transition-transform duration-300\">{feature.icon}</div>",
       "css_selector": ".text-4xll",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 97,
+        "y": 156,
+        "width": 297,
+        "height": 24
       }
     },
     {
+      "comment": "Bug #5 - invalid background color",
       "bug_category": "Color",
       "bug_type": "background-color",
       "file_modified": "src/components/Footer.jsx",
@@ -70,13 +75,14 @@
       "buggy_code": "        <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12 bg-gray-90\">",
       "css_selector": ".bg-gray-90",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 96,
+        "y": 415,
+        "width": 1088,
+        "height": 140
       }
     },
     {
+      "comment": "Bug #6 - z-index layer",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/Header.jsx",
@@ -87,11 +93,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 76
       }
     },
     {
+      "comment": "Bug #7 - flexbox direction",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/Hero.jsx",
@@ -100,13 +107,14 @@
       "buggy_code": "          <div className=\"flex flex-col-reverse sm:flex-row gap-4 justify-center mb-12\">",
       "css_selector": ".flex-col-reverse",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 64,
+        "y": 368,
+        "width": 1152,
+        "height": 63
       }
     },
     {
+      "comment": "Bug #8 - padding typo",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/components/Newsletter.jsx",
@@ -116,12 +124,13 @@
       "css_selector": ".section",
       "bounding_box": {
         "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "y": 80,
+        "width": 1280,
+        "height": 280
       }
     },
     {
+      "comment": "Bug #9 - testimonial text color (author/role)",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/Testimonials.jsx",
@@ -130,13 +139,14 @@
       "buggy_code": "                  <h4 className=\"font-bold text-white\">{testimonial.author}</h4>\n                  <p className=\"text-sm text-white\">{testimonial.role}</p>",
       "css_selector": ".text-white",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 160,
+        "y": 356,
+        "width": 125,
+        "height": 44
       }
     },
     {
+      "comment": "Bug #10 - testimonial text color (quote)",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/Testimonials.jsx",
@@ -145,10 +155,10 @@
       "buggy_code": "              <p className=\"text-white leading-relaxed italic\">\" + testimonial.text + \"</p>",
       "css_selector": ".text-white",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 96,
+        "y": 290,
+        "width": 299,
+        "height": 78
       }
     }
   ]
