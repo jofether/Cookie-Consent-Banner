@@ -16,7 +16,7 @@ export function Header({ onOpenCookieSettings }) {
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white shadow-lg backdrop-blur-md bg-opacity-95'
-          : 'bg-transparent'
+          : 'bg-gray-900 bg-opacity-60'
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
