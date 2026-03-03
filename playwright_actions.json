@@ -1,0 +1,13 @@
+{
+  "actions": [
+    { "name": "bug-1-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-3-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-4-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-5-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-6-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-7-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-8-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-9-AcceptCookies", "selector": "div.space-y-3 > button:first-child" },
+    { "name": "bug-10-AcceptCookies", "selector": "div.space-y-3 > button:first-child" }
+  ]
+}
