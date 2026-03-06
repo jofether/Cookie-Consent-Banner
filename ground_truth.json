@@ -161,8 +161,8 @@
       "bug_type": "text-color",
       "file_modified": "src/components/Testimonials.jsx",
       "line_number": 55,
-      "neg_code": "              <p className=\"text-gray-600 leading-relaxed italic\">\" + testimonial.text + \"</p>",
-      "pos_code": "              <p className=\"text-white leading-relaxed italic\">\" + testimonial.text + \"</p>",
+      "neg_code": "              <p className=\"text-gray-600 leading-relaxed italic\">\"{testimonial.text}\"</p>",
+      "pos_code": "              <p className=\"text-white leading-relaxed italic\">\"{testimonial.text}\"</p>",
       "css_selector": "div p.leading-relaxed.italic",
       "bounding_box": {
         "x": 96,
